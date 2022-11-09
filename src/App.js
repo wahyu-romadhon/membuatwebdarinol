@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import StateFullComponent from "./component/StateFullComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <div style={{ textDecoration: "underline", fontSize: "30px" }}>
+          Belajar - Macam2 Class Component.
+        </div>
+        <br />
+        <div>1. StateFull Component</div>
+        <div>2. Pure Component</div>
+        <div>3. Stateless Component</div>
+      </div>
+      <hr />
+
+      <StateFullComponent />
+    </>
   );
 }
 
