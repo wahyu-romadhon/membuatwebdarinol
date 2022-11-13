@@ -1,21 +1,45 @@
 import "./App.css";
-import StateFullComponent from "./component/StateFullComponent";
+import ClassComponent from "./component/ClassComponent";
+import HooksComponent from "./component/HooksComponent";
+import YoutubeComponent from "./component/YoutubeComponent";
 
 function App() {
   return (
     <>
+      <YoutubeComponent />
       <div className="App">
-        <div style={{ textDecoration: "underline", fontSize: "30px" }}>
-          Belajar - Macam2 Class Component.
+        <div
+          style={{
+            fontSize: "25px",
+            background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
+            border: 0,
+            borderRadius: 3,
+            boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
+            color: "white",
+            padding: "15px",
+          }}
+        >
+          Belajar - Ngoding Sangat Ringkas & Simple with React Hooks (Functional
+          Component)
         </div>
-        <br />
-        <div>1. StateFull Component</div>
-        <div>2. Pure Component</div>
-        <div>3. Stateless Component</div>
       </div>
-      <hr />
 
-      <StateFullComponent />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        ></div>
+        <ClassComponent />
+        <div>VS</div>
+        <HooksComponent />
+      </div>
     </>
   );
 }
