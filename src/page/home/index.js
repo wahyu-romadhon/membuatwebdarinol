@@ -6,7 +6,7 @@ function Homepage() {
     <>
       <YoutubeComponent />
       <div className="App">
-        <div className="title-youtube ">
+        <div className="title-youtube">
           Belajar - Perbedaaan UseEffect & UseLayoutEffect
         </div>
       </div>
