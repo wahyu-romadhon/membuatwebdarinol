@@ -1,5 +1,4 @@
 import "./App.css";
-import BelajarEffects from "./component/BelajarEffects";
 import YoutubeComponent from "./component/YoutubeComponent";
 
 function App() {
@@ -36,7 +35,6 @@ function App() {
           }}
         ></div>
       </div>
-      <BelajarEffects />
     </>
   );
 }
