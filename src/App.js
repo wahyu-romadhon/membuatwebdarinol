@@ -1,6 +1,5 @@
 import "./App.css";
-import ClassComponent from "./component/ClassComponent";
-import HooksComponent from "./component/HooksComponent";
+import BelajarEffects from "./component/BelajarEffects";
 import YoutubeComponent from "./component/YoutubeComponent";
 
 function App() {
@@ -17,10 +16,10 @@ function App() {
             boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
             color: "white",
             padding: "15px",
+            cursor: "pointer",
           }}
         >
-          Belajar - Ngoding Sangat Ringkas & Simple with React Hooks (Functional
-          Component)
+          Belajar - Perbedaaan UseEffect & UseLayoutEffect
         </div>
       </div>
 
@@ -36,10 +35,8 @@ function App() {
             justifyContent: "center",
           }}
         ></div>
-        <ClassComponent />
-        <div>VS</div>
-        <HooksComponent />
       </div>
+      <BelajarEffects />
     </>
   );
 }
