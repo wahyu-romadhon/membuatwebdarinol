@@ -7,7 +7,7 @@ function Homepage() {
       <YoutubeComponent />
       <div className="App">
         <div className="title-youtube">
-          Belajar - Perbedaaan UseEffect & UseLayoutEffect
+          Belajar - Template Youtube Kang Wahyu Studio
         </div>
       </div>
     </>
