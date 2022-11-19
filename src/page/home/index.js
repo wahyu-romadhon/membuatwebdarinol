@@ -1,17 +1,15 @@
-import "../../App.css";
-import YoutubeComponent from "../../component/YoutubeComponent";
+import withTemplateWrapper from "../../hoc/withTemplateWrapper";
 
-function Homepage() {
+function Homepage(props) {
+  console.log("props home", props);
+
+  const sumDataNih = props.sumData(8, 100);
   return (
-    <>
-      <YoutubeComponent />
-      <div className="App">
-        <div className="title-youtube">
-          Belajar - Template Youtube Kang Wahyu Studio
-        </div>
-      </div>
-    </>
+    <div className="App">
+      <div className="title-youtube">Halaman Home</div>
+      <div className="count">{sumDataNih}</div>
+    </div>
   );
 }
 
-export default Homepage;
+export default withTemplateWrapper(Homepage);

@@ -4,13 +4,8 @@ body {
 
 .title-youtube {
   font-size: 25px;
-  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
-  border: 0;
-  border-radius: 3;
-  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
-  color: white;
-  padding: 15px;
-  cursor: pointer;
+  color: black;
+  margin: 10px 0;
 }
 
 .input {
@@ -25,7 +20,6 @@ body {
 
 .App {
   text-align: center;
-  margin: 10px 50px;
 }
 
 .App-logo {

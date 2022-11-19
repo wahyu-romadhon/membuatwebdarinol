@@ -24,15 +24,14 @@ export default function YoutubeComponent() {
     if (count % 2 === 0) {
       setStyle({
         ...styles,
-        background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
-        boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
+        background: "linear-gradient(45deg, darkred 30%, red 90%)",
+        boxShadow: "0 3px 5px 2px darkred",
       });
     } else {
       setStyle({
         ...styles,
-        background:
-          "linear-gradient(45deg, rgb(33, 150, 243) 30%, rgb(33, 203, 243) 90%)",
-        boxShadow: "0 3px 5px 2px gb(33, 203, 243)",
+        background: "linear-gradient(45deg, purple 30%, royalblue 90%)",
+        boxShadow: "0 3px 5px 2px purple",
       });
     }
   }, [count]);
@@ -40,7 +39,6 @@ export default function YoutubeComponent() {
   return (
     <>
       <div
-        className="App"
         style={{
           display: "flex",
           justifyContent: "center",
