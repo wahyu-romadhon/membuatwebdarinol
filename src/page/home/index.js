@@ -1,14 +1,24 @@
+import { createContext, useReducer } from "react";
 import withTemplateWrapper from "../../hoc/withTemplateWrapper";
+import { reducer } from "../../reducer/reducer";
+import LapisPertama from "./LapisPertama";
+
+const globalState = {
+  data: 0,
+};
+
+export const MainContext = createContext();
 
 function Homepage(props) {
-  console.log("props home", props);
+  const [state, dispatch] = useReducer(reducer, globalState);
 
-  const sumDataNih = props.sumData(8, 100);
   return (
-    <div className="App">
-      <div className="title-youtube">Halaman Home</div>
-      <div className="count">{sumDataNih}</div>
-    </div>
+    <MainContext.Provider value={{ state, dispatch }}>
+      <div className="App">
+        <div className="title-youtube">Masih Perlukah Redux???</div>
+        <LapisPertama />
+      </div>
+    </MainContext.Provider>
   );
 }
 

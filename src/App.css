@@ -2,6 +2,16 @@ body {
   font-family: "Rubik Bubbles";
 }
 
+.btn {
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 20px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid darkgray;
+  box-shadow: 1px 1px 1px 1px brown;
+}
+
 .title-youtube {
   font-size: 25px;
   color: black;
@@ -14,7 +24,7 @@ body {
 }
 
 .count {
-  font-size: 200px;
+  font-size: 140px;
   margin: 20px 0;
 }
 

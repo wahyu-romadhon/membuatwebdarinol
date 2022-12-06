@@ -37,7 +37,7 @@ function DrawerAppBar(props) {
       <AppBar color="transparent" elevation={0}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Typography variant="h6">
-            Youtube: Tutorial React JS (High Order Component)
+            Youtube: Tutorial React JS (UseContext + Usereducer)
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item, index) => (
