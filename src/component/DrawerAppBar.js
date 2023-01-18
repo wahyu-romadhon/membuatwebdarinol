@@ -20,11 +20,13 @@ function DrawerAppBar(props) {
       const active = route.filter((e) => e.path === location.pathname);
       setactivePage(active[0].value);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleClick = (item, index) => {
     setactivePage(index);
 
+    // eslint-disable-next-line array-callback-return
     route.map((e) => {
       if (e.label === item) {
         return navigate(e.path);
@@ -37,7 +39,7 @@ function DrawerAppBar(props) {
       <AppBar color="transparent" elevation={0}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Typography variant="h6">
-            Youtube: Tutorial React JS (High Order Component)
+            Youtube: Tutorial React JS (Loading Skeleton)
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item, index) => (
@@ -50,6 +52,7 @@ function DrawerAppBar(props) {
                 }}
                 variant={index === activePage ? "contained" : "text"}
                 onClick={() => handleClick(item, index)}
+                color="warning"
               >
                 {item}
               </Button>

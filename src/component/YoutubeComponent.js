@@ -51,7 +51,13 @@ export default function YoutubeComponent() {
             height: 40,
           }}
         />
-        <div style={{ margin: "10px 2px", fontWeight: "bold" }}>
+        <div
+          style={{
+            margin: "10px 2px",
+            fontWeight: "bold",
+            color: "darkslategray",
+          }}
+        >
           Kang Wahyu Studio
         </div>
       </div>

@@ -1,11 +1,38 @@
 body {
   font-family: "Rubik Bubbles";
+  /* color: darkslategray; */
+  color: rgba(49, 53, 59, 0.68);
 }
 
 .title-youtube {
   font-size: 25px;
-  color: black;
+  color: darkslategray;
   margin: 10px 0;
+}
+
+.btn {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.container-list-product {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-product {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.text-product-name {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.text-product {
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .input {
@@ -14,7 +41,7 @@ body {
 }
 
 .count {
-  font-size: 200px;
+  font-size: 50px;
   margin: 20px 0;
 }
 
