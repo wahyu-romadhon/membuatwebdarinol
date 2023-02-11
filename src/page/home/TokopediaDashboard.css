@@ -1,0 +1,156 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f4f5;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+.header-navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5px;
+}
+
+.item-navbar {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.item-navbar:hover {
+  color: rgb(3, 172, 14);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(3, 172, 14);
+  cursor: pointer;
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.img-logo {
+  margin: 0px 20px;
+}
+
+.sub-header-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+
+.sub-header-text {
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+.sub-header-input {
+  flex: 1;
+  border: 0.5px solid silver;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  height: 30px;
+}
+
+.search-icon {
+  background-color: #f3f4f5;
+  color: black;
+  margin-left: -10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 3px;
+  border: 0.5px solid silver;
+}
+
+.sub-header-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-login {
+  margin: 0px 5px;
+  border: 1px solid rgb(3, 172, 14);
+  background-color: white;
+  color: rgb(3, 172, 14);
+  border-radius: 7px;
+  padding: 0px 10px;
+  height: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-daftar {
+  margin: 0px 5px;
+  border: 1px solid white;
+  background-color: rgb(3, 172, 14);
+  color: white;
+  border-radius: 7px;
+  padding: 0px 10px;
+  height: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sub-header-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 2px #f3f4f5;
+  font-size: 14px;
+  position: relative;
+}
+
+.product-terlaris {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  margin-left: -70px;
+}
+
+.text-location {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+}
+
+.select-location {
+  border: none;
+  font-size: 13px;
+  margin: -3px 20px 5px 2px;
+}
+
+.wrap-carousel {
+  margin: 30px 200px;
+}
+
+.test-garis {
+  width: 20px;
+  border-bottom: 1px solid silver;
+}
+
+.bulat-bawah {
+  width: 10px;
+  height: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid silver;
+  border-bottom: 0;
+}
